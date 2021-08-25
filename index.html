@@ -188,10 +188,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to('.lead', { duration: 2, delay: 3.2, text: 'Seorang Siswa' });
-      gsap.from('.jumbotron img', {duration: 1, y: -100, delay: 3.2, opacity: 0 });
-      gsap.from('.navbar', { duration: 1.5, delay: 3.2, y: '-100%', opacity: 0 });
-      gsap.from('.display-4', { duration: 1, y: '-100%', opacity: 0, delay: 2.5 });
+      gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Seorang Siswa' });
+      gsap.from('.jumbotron img', {duration: 1, y: -100, opacity: 0 });
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0 });
+      gsap.from('.display-4', { duration: 1, y: '-100%', opacity: 0, delay: 0.5 });
     </script>
 
     <script>
@@ -221,18 +221,4 @@
       })
     </script>
   </body>
-</html>
-
-<!-- loader part  -->
-<div class="loader-container">
-  <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">Loading...</span>
-</div>
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="script.js"></script>
-
-</body>
 </html>
